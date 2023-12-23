@@ -1,7 +1,7 @@
 $(function() {
     $('.tombolTambahData').on('click', function(){
-        $('#formModalLabel').html('Tambah Data Mahasiswa');
-        $('.modal-footer button[type=submit]').html('Tambah Data');
+        $('#formModalLabel').html('Tambah Pengguna');
+        $('.modal-footer button[type=submit]').html('Submit');
     });
 
     $('.tampilModalUbah').on('click', function(){
